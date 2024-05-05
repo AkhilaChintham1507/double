@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Retail Company</title>
+    <style>
+        body { background-color: lightblue; margin: 0; font-family: Arial, sans-serif; }
+        .header { background: teal; color: white; padding: 20px; text-align: center; }
+        .header a { color: white; margin: 0 15px; text-decoration: none; font-size: 20px; }
+        .product { display: flex; flex-wrap: wrap; justify-content: center; padding: 20px; }
+        .product-card { flex: 1; margin: 15px; padding: 20px; background: #f9f9f9; border: 1px solid #ddd; max-width: 300px; }
+        .product-card img { max-width: 100%; height: auto; }
+        .footer { background: #333; color: white; text-align: center; padding: 10px; position: fixed; bottom: 0; width: 100%; }
+        form { display: flex; flex-direction: column; width: 300px; margin: auto; }
+        input, textarea { margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <a href="#home">Home</a>
+    <a href="#products">Products</a>
+</div>
+
+<div class="product" id="products">
+    <!-- Example of a product, replicate this for 10 products -->
+    <div class="product-card">
+        <img src="https://via.placeholder.com/150" alt="Product1">
+        <h4>Product 1</h4>
+        <p>Description for product 1.</p>
+    </div>
+    <!-- Add more products here -->
+</div>
+
+<div class="footer">
+    © 2023 Retail Company
+</div>
+
+<script>
+// Add JavaScript here if needed
+</script>
+</body>
+</html>
